@@ -1,9 +1,9 @@
 name 'lcd_mongodb2'
-maintainer 'The Authors'
+maintainer 'Damien O\'Neal'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
-description 'Installs/Configures lcd_mongodb2'
-long_description 'Installs/Configures lcd_mongodb2'
+description 'Installs/Configures MongoDB'
+long_description 'Installs/Configures MongoDB'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
@@ -17,4 +17,6 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/lcd_mongodb2'
+# source_url 'https://github.com/<insert_org_here>/lcd_mongodb2'i
+
+depends 'sc-mongodb', '= 1.0.0'
