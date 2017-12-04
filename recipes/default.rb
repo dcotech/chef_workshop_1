@@ -5,7 +5,7 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 ##################################
-### Repo needed to install MongoDB
+### The Repo needed to install MongoDB
 ##################################
 yum_repository 'mongodb-org-3.4' do
   description "MongoDB repo"
