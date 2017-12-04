@@ -1,4 +1,3 @@
 # lcd_mongodb2
 
-TODO: Enter the cookbook description here.
-
+Installs MongoDB packages and configures its daemon. Test kitchen (v.1.9.2) was used to test cookbook
